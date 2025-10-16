@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Canton Profit Mission — Viagem de Negócios para a Canton Fair</title>
+  <meta name="description" content="A viagem que paga o próprio custo: volte da Canton Fair com fornecedores qualificados, produtos validados e margens definidas — ou a assessoria sai de graça.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji'; }
+    .container { max-width: 1140px; }
+    .glass { background: rgba(255,255,255,0.08); backdrop-filter: blur(10px); }
+  </style>
+</head>
+<body class="bg-neutral-950 text-white">
+  <!-- Sticky Header -->
+  <header class="fixed inset-x-0 top-0 z-50 bg-neutral-950/80 backdrop-blur border-b border-white/10">
+    <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3">
+        <img src="https://raw.githubusercontent.com/LeadAlvoCerto/mcacantonfair/refs/heads/main/11.jpeg" alt="Parceria MCA TUR + China Gate" class="h-8 w-auto rounded"/>
+        <span class="text-sm md:text-base font-semibold tracking-tight">Canton Profit Mission</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#diferenciais" class="hover:text-red-400">Por que diferente</a>
+        <a href="#como-funciona" class="hover:text-red-400">Como funciona</a>
+        <a href="#oferta" class="hover:text-red-400">O que você recebe</a>
+        <a href="#garantia" class="hover:text-red-400">Garantia</a>
+        <a href="#investimento" class="hover:text-red-400">Investimento</a>
+      </nav>
+      <div class="hidden md:flex items-center gap-3">
+        <a href="https://wa.me/5519974010028" target="_blank" class="inline-flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-xl font-semibold shadow-lg shadow-red-500/20">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.92 11.92 0 0 0 12.06 0C5.46 0 .14 5.33.14 11.91c0 2.1.55 4.14 1.6 5.96L0 24l6.29-1.65a11.86 11.86 0 0 0 5.77 1.47h.01c6.59 0 11.92-5.33 11.92-11.91 0-3.18-1.24-6.18-3.47-8.43ZM12.07 21.4h-.01a9.47 9.47 0 0 1-4.83-1.32l-.35-.2-3.73.98.99-3.64-.23-.37a9.33 9.33 0 0 1-1.42-4.93c0-5.2 4.23-9.43 9.44-9.43 2.52 0 4.88.98 6.66 2.75a9.34 9.34 0 0 1 2.76 6.68c0 5.2-4.24 9.48-9.48 9.48Zm5.48-7.09c-.3-.15-1.78-.88-2.06-.98-.27-.1-.47-.15-.67.15-.2.29-.77.98-.95 1.18-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.39-1.46-.88-.76-1.47-1.7-1.64-1.99-.17-.29-.02-.45.13-.6.13-.13.3-.35.45-.53.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.68-.51-.17-.01-.37-.01-.57-.01-.2 0-.53.08-.81.37-.27.29-1.07 1.05-1.07 2.56 0 1.5 1.1 2.95 1.26 3.16.15.2 2.16 3.31 5.26 4.64.74.32 1.32.51 1.77.65.74.23 1.41.2 1.94.12.59-.09 1.78-.73 2.03-1.44.25-.71.25-1.32.17-1.45-.07-.13-.27-.2-.57-.35Z"/></svg>
+          Falar no WhatsApp
+        </a>
+      </div>
+      <button id="menuBtn" class="md:hidden p-2 rounded-lg hover:bg-white/10" aria-label="Abrir menu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div id="mobileNav" class="md:hidden hidden border-t border-white/10">
+      <nav class="px-4 py-3 grid gap-3 bg-neutral-950">
+        <a href="#diferenciais" class="py-2">Por que diferente</a>
+        <a href="#como-funciona" class="py-2">Como funciona</a>
+        <a href="#oferta" class="py-2">O que você recebe</a>
+        <a href="#garantia" class="py-2">Garantia</a>
+        <a href="#investimento" class="py-2">Investimento</a>
+        <a href="https://wa.me/5519974010028" target="_blank" class="mt-2 inline-flex items-center justify-center gap-2 bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-xl font-semibold">Falar no WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top" class="pt-28">
+    <section class="relative overflow-hidden">
+      <img src="https://github.com/appestoicismo/app-autoconhecimento-images/blob/main/cantonfair_header.jpg?raw=1" alt="Canton Fair" class="absolute inset-0 w-full h-full object-cover opacity-30"/>
+      <div class="relative container mx-auto px-4 py-24 md:py-32">
+        <div class="max-w-3xl">
+          <span class="inline-flex items-center gap-2 text-xs uppercase tracking-widest bg-white/10 text-white px-3 py-1 rounded-full mb-5">Parceria MCA TUR + China Gate</span>
+          <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Volte da Canton Fair com produtos prontos pra vender e <span class="text-red-400">lucro garantido</span>.</h1>
+          <p class="mt-6 text-lg md:text-xl text-white/80">A única viagem de negócios para a China onde você volta com fornecedores qualificados, produtos validados e margens definidas — ou a assessoria sai de graça.</p>
+          <div class="mt-8 flex flex-col sm:flex-row gap-3">
+            <a href="#form" class="inline-flex items-center justify-center gap-2 bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-xl font-semibold shadow-lg shadow-red-500/20">Reservar minha vaga</a>
+            <a href="https://wa.me/5519974010028" target="_blank" class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-xl font-semibold">Tirar dúvidas no WhatsApp</a>
+          </div>
+          <div class="mt-8 flex items-center gap-4">
+            <img src="https://appestoicismo.github.io/insonia/garantia.png" alt="Garantia" class="h-12 w-auto">
+            <p class="text-sm text-white/70">Garantia: volte com <strong>2 fornecedores qualificados</strong> e produtos com <strong>margem mínima de 30%</strong> — ou devolvemos 100% da taxa de assessoria.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Por que diferente -->
+    <section id="diferenciais" class="py-20 border-t border-white/10">
+      <div class="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold">Por que esta viagem é diferente</h2>
+          <p class="mt-4 text-white/80">Excursões comuns entregam hotel, credencial e torcem para você se virar. Aqui o foco é <span class="font-semibold">ROI</span>: você volta com lucro no papel.</p>
+          <ul class="mt-6 space-y-3 text-white/90">
+            <li class="flex gap-3"><span class="text-red-400">▸</span> Consultoria antes, durante e depois da feira</li>
+            <li class="flex gap-3"><span class="text-red-400">▸</span> Tradução e negociação direta com fábricas</li>
+            <li class="flex gap-3"><span class="text-red-400">▸</span> Roteiro otimizado por categoria de produto</li>
+            <li class="flex gap-3"><span class="text-red-400">▸</span> Validação de fornecedores &amp; envio de amostras</li>
+            <li class="flex gap-3"><span class="text-red-400">▸</span> Suporte pós-feira até a carga embarcar</li>
+          </ul>
+        </div>
+        <div class="glass rounded-2xl p-6 border border-white/10">
+          <img src="https://raw.githubusercontent.com/LeadAlvoCerto/mcacantonfair/refs/heads/main/4.jpeg" alt="Negociação na China" class="rounded-xl w-full h-72 object-cover"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- Como funciona -->
+    <section id="como-funciona" class="py-20 border-t border-white/10">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-center">Como funciona na prática</h2>
+        <p class="mt-3 text-center text-white/70 max-w-2xl mx-auto">Processo fechado para reduzir tempo e esforço, e aumentar a certeza do resultado.</p>
+        <div class="mt-10 grid md:grid-cols-4 gap-6">
+          <!-- Step 1 -->
+          <div class="glass rounded-2xl p-5 border border-white/10">
+            <img src="https://raw.githubusercontent.com/LeadAlvoCerto/mcacantonfair/refs/heads/main/2.jpeg" alt="Briefing" class="rounded-lg w-full h-40 object-cover"/>
+            <h3 class="mt-4 font-semibold">1) Briefing de nicho</h3>
+            <p class="mt-1 text-sm text-white/70">Escolha de produtos com potencial de margem &gt; 30% e mapeamento de fornecedores alvo.</p>
+          </div>
+          <!-- Step 2 -->
+          <div class="glass rounded-2xl p-5 border border-white/10">
+            <img src="https://raw.githubusercontent.com/LeadAlvoCerto/mcacantonfair/refs/heads/main/3.jpeg" alt="Chegada" class="rounded-lg w-full h-40 object-cover"/>
+            <h3 class="mt-4 font-semibold">2) Operação em campo</h3>
+            <p class="mt-1 text-sm text-white/70">Canton Fair com tradutores, roteiro por pavilhão e reuniões agendadas.</p>
+          </div>
+          <!-- Step 3 -->
+          <div class="glass rounded-2xl p-5 border border-white/10">
+            <img src="https://raw.githubusercontent.com/LeadAlvoCerto/mcacantonfair/refs/heads/main/8.jpeg" alt="Negociação" class="rounded-lg w-full h-40 object-cover"/>
+            <h3 class="mt-4 font-semibold">3) Negociação direta</h3>
+            <p class="mt-1 text-sm text-white/70">MOQ, preço, lead time, personalização, embalagem e garantia de qualidade.</p>
+          </div>
+          <!-- Step 4 -->
+          <div class="glass rounded-2xl p-5 border border-white/10">
+            <img src="https://raw.githubusercontent.com/LeadAlvoCerto/mcacantonfair/refs/heads/main/10.jpeg" alt="Pós-feira" class="rounded-lg w-full h-40 object-cover"/>
+            <h3 class="mt-4 font-semibold">4) Pós-feira lucrativa</h3>
+            <p class="mt-1 text-sm text-white/70">Envio de amostras, consolidação de carga e suporte até o embarque.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Oferta / Stack -->
+    <section id="oferta" class="py-20 border-t border-white/10">
+      <div class="container mx-auto px-4">
+        <div class="grid lg:grid-cols-2 gap-10 items-center">
+          <div>
+            <h2 class="text-3xl md:text-4xl font-bold">O que você recebe (Offer Stack)</h2>
+            <ul class="mt-6 space-y-3 text-white/90">
+              <li class="flex gap-3"><span class="text-red-400">✔</span> Acompanhamento completo Brasil + China</li>
+              <li class="flex gap-3"><span class="text-red-400">✔</span> Roteiro por categoria e pavilhão</li>
+              <li class="flex gap-3"><span class="text-red-400">✔</span> Consultoria de importação personalizada</li>
+              <li class="flex gap-3"><span class="text-red-400">✔</span> Hospedagem premium próxima à feira</li>
+              <li class="flex gap-3"><span class="text-red-400">✔</span> Tradutor exclusivo + transfers diários</li>
+              <li class="flex gap-3"><span class="text-red-400">✔</span> Grupo VIP com importadores experientes</li>
+              <li class="flex gap-3"><span class="text-red-400">✔</span> Mentoria pós-feira até a carga embarcar</li>
+              <li class="flex gap-3"><span class="text-red-400">✔</span> Garantia “Lucro ou Assessoria Grátis”</li>
+            </ul>
+            <div class="mt-8 flex gap-3">
+              <a href="#form" class="inline-flex items-center justify-center gap-2 bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-xl font-semibold">Reservar minha vaga</a>
+              <a href="#investimento" class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-xl font-semibold">Ver investimento</a>
+            </div>
+          </div>
+          <div class="glass rounded-2xl p-6 border border-white/10">
+            <img src="https://raw.githubusercontent.com/LeadAlvoCerto/mcacantonfair/refs/heads/main/5.jpeg" alt="Oferta que paga a viagem" class="rounded-xl w-full h-[420px] object-cover"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Garantia -->
+    <section id="garantia" class="py-20 border-t border-white/10">
+      <div class="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+        <div class="glass rounded-2xl p-6 border border-white/10">
+          <img src="https://appestoicismo.github.io/insonia/garantia.png" alt="Garantia Hormozi" class="rounded-xl w-full h-80 object-contain bg-white p-6"/>
+        </div>
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold">Garantia MCA Style</h2>
+          <p class="mt-4 text-white/80">Se você não voltar da Canton Fair com pelo menos <span class="font-semibold">2 fornecedores qualificados</span> e <span class="font-semibold">produtos com margem mínima de 30%</span>, devolvemos 100% da taxa de assessoria.</p>
+          <p class="mt-3 text-white/60">Simples assim.</p>
+          <div class="mt-8">
+            <a href="https://wa.me/5519974010028?text=Quero%20validar%20a%20garantia%20da%20Canton%20Profit%20Mission" target="_blank" class="inline-flex items-center justify-center gap-2 bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-xl font-semibold">Validar minha elegibilidade</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimentos / Prova social -->
+    <section class="py-20 border-t border-white/10">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-center">Resultados reais</h2>
+        <div class="mt-10 grid md:grid-cols-3 gap-6">
+          <article class="glass rounded-2xl p-6 border border-white/10">
+            <img src="https://raw.githubusercontent.com/LeadAlvoCerto/mcacantonfair/refs/heads/main/carloshdecoracoes.jpeg" alt="Cliente 1" class="rounded-xl w-full h-48 object-cover"/>
+            <p class="mt-4 text-white/80">“Voltei com 3 produtos exclusivos. O primeiro já pagou toda a viagem.”</p>
+            <p class="mt-2 text-sm text-white/60">— Carlos H., decoração</p>
+          </article>
+          <article class="glass rounded-2xl p-6 border border-white/10">
+            <img src="https://raw.githubusercontent.com/LeadAlvoCerto/mcacantonfair/refs/heads/main/biancautilidades.jpeg" alt="Cliente 2" class="rounded-xl w-full h-48 object-cover"/>
+            <p class="mt-4 text-white/80">“Negociei MOQ e personalização. Fechamos 38% de margem já no primeiro lote.”</p>
+            <p class="mt-2 text-sm text-white/60">— Bianca M., utilidades</p>
+          </article>
+          <article class="glass rounded-2xl p-6 border border-white/10">
+            <img src="https://raw.githubusercontent.com/LeadAlvoCerto/mcacantonfair/refs/heads/main/leoeletroportateis.jpeg" alt="Cliente 3" class="rounded-xl w-full h-48 object-cover"/>
+            <p class="mt-4 text-white/80">“A diferença foi o pós-feira. Consolidação certa, embarque sem dor de cabeça.”</p>
+            <p class="mt-2 text-sm text-white/60">— Leo R., eletroportáteis</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Investimento / Vagas -->
+    <section id="investimento" class="py-20 border-t border-white/10">
+      <div class="container mx-auto px-4 grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold">Investimento &amp; Vagas</h2>
+          <p class="mt-4 text-white/80">Próxima edição: <span class="font-semibold">Abril de 2025</span> • Vagas limitadas a <span class="font-semibold">25 participantes</span>.</p>
+          <div class="mt-6 glass rounded-2xl p-6 border border-white/10">
+            <p class="text-4xl font-extrabold text-red-400">US$ 6.000</p>
+            <p class="mt-2 text-white/70">Inclui hospedagem premium, consultoria completa, tradução, transfers diários e suporte pós-feira.</p>
+            <div class="mt-5 flex gap-3">
+              <a href="#form" class="inline-flex items-center justify-center gap-2 bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-xl font-semibold">Garantir minha vaga</a>
+              <a href="https://wa.me/5519974010028?text=Quero%20ver%20condi%C3%A7%C3%B5es%20de%20pagamento%20da%20Canton%20Profit%20Mission" target="_blank" class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-xl font-semibold">Falar no WhatsApp</a>
+            </div>
+          </div>
+        </div>
+        <div class="glass rounded-2xl p-6 border border-white/10">
+          <img src="https://raw.githubusercontent.com/appestoicismo/emagrecimento/refs/heads/main/desconto%20valido%20hoje1.png" alt="Vagas limitadas" class="rounded-xl w-full h-[420px] object-cover"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparativo -->
+    <section class="py-20 border-t border-white/10">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-center">Checklist do Lucro</h2>
+        <div class="mt-10 grid md:grid-cols-2 gap-6">
+          <div class="glass rounded-2xl p-6 border border-white/10">
+            <h3 class="font-semibold text-white/90">Excursão comum</h3>
+            <ul class="mt-3 text-white/70 space-y-2">
+              <li>Sem garantia</li>
+              <li>Visita livre, sem roteiro de compras</li>
+              <li>Sem follow-up pós-feira</li>
+              <li>Foco: turismo comercial</li>
+            </ul>
+          </div>
+          <div class="glass rounded-2xl p-6 border border-white/10">
+            <h3 class="font-semibold text-white/90">Canton Profit Mission</h3>
+            <ul class="mt-3 text-white/70 space-y-2">
+              <li>Garantia “Lucro ou Assessoria Grátis”</li>
+              <li>Roteiro por categoria e reuniões dirigidas</li>
+              <li>Suporte até a carga embarcar</li>
+              <li>Foco: missão de negócios</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulário -->
+    <section id="form" class="py-20 border-t border-white/10">
+      <div class="container mx-auto px-4">
+        <div class="grid lg:grid-cols-2 gap-10 items-center">
+          <div>
+            <h2 class="text-3xl md:text-4xl font-bold">Garanta sua vaga</h2>
+            <p class="mt-4 text-white/80">Preencha os dados e receba prioridade no atendimento. Um especialista entrará em contato para validar seu perfil e confirmar a reserva.</p>
+            <div class="mt-6 glass rounded-2xl p-6 border border-white/10">
+              <form id="leadForm" class="grid grid-cols-1 gap-4">
+                <div>
+                  <label class="text-sm text-white/70">Nome</label>
+                  <input type="text" id="nome" required class="mt-1 w-full px-4 py-3 rounded-xl bg-white/10 border border-white/10 focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="Seu nome completo" />
+                </div>
+                <div>
+                  <label class="text-sm text-white/70">WhatsApp</label>
+                  <input type="tel" id="whatsapp" required class="mt-1 w-full px-4 py-3 rounded-xl bg-white/10 border border-white/10 focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="(DDD) número" />
+                </div>
+                <div>
+                  <label class="text-sm text-white/70">E-mail</label>
+                  <input type="email" id="email" required class="mt-1 w-full px-4 py-3 rounded-xl bg-white/10 border border-white/10 focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="voce@email.com" />
+                </div>
+                <div>
+                  <label class="text-sm text-white/70">Segmento / Produto de interesse</label>
+                  <input type="text" id="segmento" class="mt-1 w-full px-4 py-3 rounded-xl bg-white/10 border border-white/10 focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="Ex.: utilidades, decoração, eletrônicos" />
+                </div>
+                <button type="submit" class="mt-2 inline-flex items-center justify-center gap-2 bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-xl font-semibold">Reservar minha vaga</button>
+                <p class="text-xs text-white/60">Ao enviar, você concorda com nossa política de privacidade.</p>
+              </form>
+            </div>
+            <div class="mt-4 flex items-center gap-3">
+              <img src="https://github.com/appestoicismo/app-autoconhecimento-images/blob/main/fundo_form.jpg?raw=1" alt="Suporte" class="h-12 w-12 rounded-lg object-cover"/>
+              <p class="text-sm text-white/60">Preferir chamar direto? <a href="https://wa.me/5519974010028" target="_blank" class="text-red-400 hover:text-red-300 font-medium">WhatsApp: (19) 97401-0028</a></p>
+            </div>
+          </div>
+          <div class="glass rounded-2xl p-6 border border-white/10">
+            <img src="https://github.com/appestoicismo/app-autoconhecimento-images/blob/main/cantonfair_header.jpg?raw=1" alt="Canton Fair" class="rounded-xl w-full h-[520px] object-cover"/>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10">
+    <div class="container mx-auto px-4 py-10 grid md:grid-cols-3 gap-6 items-center">
+      <div>
+        <p class="text-white/70 text-sm">Parceria MCA TUR + China Gate</p>
+        <p class="text-white/50 text-xs mt-1">Missão de negócios para a Canton Fair — foco em ROI real.</p>
+      </div>
+      <div class="text-sm text-white/60">
+        <a href="#" class="hover:text-white">Política de Privacidade</a>
+        <span class="mx-2">•</span>
+        <a href="#" class="hover:text-white">Termos de Uso</a>
+        <span class="mx-2">•</span>
+        <a href="https://wa.me/5519974010028" target="_blank" class="hover:text-white">Contato</a>
+      </div>
+      <div class="text-right text-xs text-white/50">© <span id="year"></span> Canton Profit Mission. Todos os direitos reservados.</div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu
+    const btn = document.getElementById('menuBtn');
+    const nav = document.getElementById('mobileNav');
+    btn?.addEventListener('click', () => nav.classList.toggle('hidden'));
+
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Lead form -> WhatsApp prefill
+    const form = document.getElementById('leadForm');
+    form?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const nome = encodeURIComponent(document.getElementById('nome').value.trim());
+      const wpp = encodeURIComponent(document.getElementById('whatsapp').value.trim());
+      const email = encodeURIComponent(document.getElementById('email').value.trim());
+      const segmento = encodeURIComponent(document.getElementById('segmento').value.trim());
+      const msg = `Olá! Quero reservar minha vaga na Canton Profit Mission.%0A%0A`+
+                  `Nome: ${nome}%0AWhatsApp: ${wpp}%0AE-mail: ${email}%0ASegmento: ${segmento}`;
+      window.open(`https://wa.me/5519974010028?text=${msg}`, '_blank');
+    });
+  </script>
+</body>
+</html>
